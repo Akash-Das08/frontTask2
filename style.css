@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin-bottom: 0rem;
+}
+
+h1 {
+    margin-bottom: 0rem;
+}
+
+p {
+    color: rgb(139, 53, 13);
+    font-size: 1rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin: 2rem 4rem 0rem 4rem;
+}
+
+.thanos {
+    width: 30px 0rem;
+    border: 5px solid rgb(34, 7, 109);
+    border-radius: 15px;
+}
+
+.navbar {
+    background-color: rgb(38, 11, 88);
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.navbar a{
+    color: white;
+}
+
+.container {
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 3rem 5rem;
+}
+
+.rating {
+    font-size: 1rem;
+    color: #42E16D;
+}
+
+.rectangle {
+    border: 5px solid rgb(83, 29, 153);
+    border-radius: 15px;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 5fr 0.5fr;
+    margin-bottom: 2rem;
+}
+
+.box {
+    margin-left: 1rem;
+}
+
+.action {
+    background-color: #f17dcb;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    
+}
+
+.action:hover {
+    background-color: #4d0a31;
+}
+
+.thriller {
+    background-color: #48b4f3;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    
+}
+
+.thriller:hover {
+    background-color: #0d3658;
+}
+
+@media (max-width: 4800px) {
+    .navbar {
+        font-size: 1rem;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .container {
+        padding: 2rem 3rem;
+    }
+
+    .rectangle {
+        display: grid;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem;
+    }
+
+    .box {
+        margin: 2;
+    }
+
+    .rating {
+        color: rgb(83, 29, 153);
+    }
+    
+    .thanos {
+        width: 13rem;
+    }
+}
+@media (min-width: 150px) {
+    .navbar {
+        font-size: 1rem;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .container {
+        padding: 2rem 3rem;
+    }
+
+    .rectangle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem;
+    }
+
+    .box {
+        margin: 2px;;
+    }
+
+    .thanos {
+        width: 13rem;
+    }
+
+    .rating {
+        color: rgb(71, 150, 106);
+    }
+}
